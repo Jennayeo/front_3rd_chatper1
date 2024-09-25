@@ -7,9 +7,9 @@ export const MainPage = `
 
       <nav class="bg-white shadow-md p-2 sticky top-14">
         <ul class="flex justify-around">
-          <li><a href="./main.html" class="text-blue-600">홈</a></li>
-          <li><a href="./profile.html" class="text-gray-600">프로필</a></li>
-          <li><a href="#" class="text-gray-600">로그아웃</a></li>
+          <li><a href="./main" class="text-blue-600">홈</a></li>
+          <li><a href="./profile" class="text-gray-600">프로필</a></li>
+          <li><a href="#" id="logoutButton" class="text-gray-600">로그아웃</a></li>
         </ul>
       </nav>
 
@@ -26,7 +26,7 @@ export const MainPage = `
               <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">홍길동</p>
-                <p class="text-sm text-gray-500">5분 전</p>
+                <p id="password" class="text-sm text-gray-500">5분 전</p>
               </div>
             </div>
             <p>오늘 날씨가 정말 좋네요. 다들 좋은 하루 보내세요!</p>
